@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="MIT"
+
+[[mods]]
+modId="veinminer"
+version="1.0.0"
+displayName="VeinMiner"
+description="连锁挖矿：挖掘方块时自动连锁挖掘周围64格同类方块。潜行时不触发。耐久度不足时只挖掘到耐久耗尽。"
+authors=["Operit AI"]
+credits="Powered by NeoForge"
+displayURL="https://github.com/Operit/veinminer"
+logoFile=""
+
+[[dependencies.veinminer]]
+modId="neoforge"
+type="required"
+versionRange="[26.2,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.veinminer]]
+modId="minecraft"
+type="required"
+versionRange="[1.21,)"
+ordering="NONE"
+side="BOTH"
